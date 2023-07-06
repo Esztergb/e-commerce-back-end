@@ -7,7 +7,6 @@
 [![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat)](https://www.npmjs.com/package/mysql2)
 [![Sequelize Badge](https://img.shields.io/badge/Sequelize-52B0E7?logo=sequelize&logoColor=fff&style=flat)](https://sequelize.org/docs/v6/)
 [![.ENV Badge](https://img.shields.io/badge/.ENV-ECD53F?logo=dotenv&logoColor=000&style=flat)](https://www.npmjs.com/package/dotenv)
-[![Nodemon Badge](https://img.shields.io/badge/Nodemon-76D04B?logo=nodemon&logoColor=fff&style=flat)](https://nodemon.io/)
 [![Insomnia Badge](https://img.shields.io/badge/Insomnia-4000BF?logo=insomnia&logoColor=fff&style=flat)](https://insomnia.rest/)
   
 ## User Story
@@ -64,10 +63,9 @@ DB_PASSWORD='YOUR PASSWORD'
 
 ## Usage 
 
-*![project image](./)*
+Watch a [video](https://drive.google.com/file/d/120F8fu2B9Fg24jrFHmOWmCVwO7jvTJwb/view) demonstration of the basic functionality:
   
 * Start server with command `npm start`.
-* Alternatively, start server with Nodemon (and restart server automatically when making changes to code) with command `npm run watch`.
 * Access API routes with Insomnia using the following endpoints:
 
 |                                   | CATEGORY                                 | TAG                                | PRODUCT                                |
