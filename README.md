@@ -59,14 +59,8 @@ DB_USER='YOUR USERNAME'
 DB_PW='YOUR PASSWORD'
 ```
 * Open MySQL with command `mysql -u root -p` and enter your personal MySQL password. 
-* Create databse with command `source schema.sql`. Log out of MySQL with command `\q`.
+* Create databse with command `source schema.sql`. Log out of MySQL with command `\q` or `quit`.
 * Seed database with command `npm run seed`.
-
-
-### Steps to initialize the project:
-1. **Copy Link**: Hit the "Code" button within this GitHub repo to copy link
-2. **Clone**: Within GitBash, use the command "git clone paste link here"
-3. **NPM**: Use the command "npm init -y" to install Node Package Manager
 
 ## Usage 
 
@@ -83,6 +77,28 @@ DB_PW='YOUR PASSWORD'
 
 
 * Make POST and PUT requests with the following JSON body formats:
+
+ **CATEGORY**
+  ```
+  { 
+  "categoryName": "STRING INPUT" 
+  }
+  ```
+ **TAG**
+  ```
+  { 
+  "tagName": "STRING INPUT" 
+  }
+  ```
+  **PRODUCT**
+  ```
+  { 
+  "product_name": "STRING INPUT",   
+  "price": DECIMAL INPUT,   
+  "stock": INTEGER INPUT,   
+  "tagIds": INTEGER INPUT
+  }
+  ```
 
 
 ## License
