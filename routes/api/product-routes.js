@@ -115,6 +115,7 @@ router.put('/:id', (req, res) => {
       res.status(400).json(err);
     });
 });
+
 // delete one product by its `id` value
 router.delete('/:id', async (req, res) => {
   try {
