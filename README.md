@@ -63,7 +63,7 @@ DB_PASSWORD='YOUR PASSWORD'
 
 ## Usage 
 
-Watch a [video](https://drive.google.com/file/d/120F8fu2B9Fg24jrFHmOWmCVwO7jvTJwb/view) demonstration of the basic functionality:
+Watch a [video](https://drive.google.com/file/d/12wAVOSLmoQq3z1BqL-K67uIxrGAcaq0W/view) demonstration of the basic functionality:
   
 * Start server with command `npm start`.
 * Access API routes with Insomnia using the following endpoints:
